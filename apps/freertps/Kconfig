@@ -1,0 +1,16 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+menu "FreeRTPS"
+
+config FREERTPS_LIB
+        bool "FreeRTPS Library"
+        default n
+        ---help---
+                Enable support for the FreeRTPS library.
+
+if FREERTPS_LIB
+endif
+endmenu # FreeRTPS
