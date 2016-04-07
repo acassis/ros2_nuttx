@@ -43,7 +43,7 @@ ASRCS  =
 CSRCS  = disco.c freertps.c id.c part.c spdp.c sedp.c sub.c pub.c \
          time.c udp.c psm/ser.c
 
-CFLAGS += -std=c99
+CFLAGS += -std=c99 -I./include
 
 AOBJS = $(ASRCS:.S=$(OBJEXT))
 COBJS = $(CSRCS:.c=$(OBJEXT))
