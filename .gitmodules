@@ -1,6 +1,3 @@
 [submodule "configs"]
 	path = configs
 	url = https://bitbucket.org/nuttx/boards.git
-[submodule "arch"]
-	path = arch
-	url = https://bitbucket.org/nuttx/arch.git
